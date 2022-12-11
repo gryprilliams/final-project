@@ -1,0 +1,65 @@
+.gallery {
+    max-width: 980px;
+    width: 100%;
+    height: fit-content;
+    h1 {
+        font-family: GillSans;
+        font-size: 25px;
+        color: black;
+        border-bottom: 1px solid black;
+        display: inline-block;
+        margin-top: 40px;
+    }
+    .row1 {
+        width: auto;
+        height: 200px;
+        display: flex;
+        margin-bottom: 20px;
+        .food {
+            width: 500px;
+            height: auto;
+            background-image: url(../images/gallery/1.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .dj {
+            width: 200px;
+            height: auto;
+            background-image: url(../images/gallery/2.jpeg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .speech {
+            width: 250px;
+            height: auto;
+            background-image: url(../images/gallery/3.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+    }
+    .row2 {
+        width: auto;
+        height: 300px;
+        display: flex;
+        margin-bottom: 20px;
+        .openfood {
+            width: 600px;
+            height: auto;
+            background-image: url(../images/gallery/4.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .international {
+            width: 300px;
+            height: auto;
+            background-image: url(../images/gallery/5.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+    }
+}
